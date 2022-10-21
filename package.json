@@ -1,0 +1,23 @@
+{
+  "name": "ps5_ts_oop",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonHernandez-Ksquare/PS5_ts_oop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonHernandez-Ksquare/PS5_ts_oop/issues"
+  },
+  "homepage": "https://github.com/BrandonHernandez-Ksquare/PS5_ts_oop#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
