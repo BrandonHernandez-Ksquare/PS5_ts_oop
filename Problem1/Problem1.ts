@@ -37,14 +37,14 @@ const initial =  function initialState(resp: string | any[] | ListInfo) {
 
 request
 .then((resp) => resp.json()) // make the request
-.then((resp:ListInfo) => { //the information will be recieve according to the interface type that we have created
+.then((resp:ListInfo) => { //the information will be recieved according to the interface type that we have created
     if (!resp) {
-        throw 'An error has ocurred, please try again later!' // if not data have be founded then we hace a error
+        throw 'An error has ocurred, please try again later!' // if no data has been found then we throw an error
     }; 
     initial(resp) // we display the initial state of the information
 
     //According to the button then we show the information
-    //we interate the json and in each position we writte the information obtained in html
+    //we iterate the json and in each position and we write the information obtained in the html
     dailyB.addEventListener("click", () => {
         for (let index = 0; index < resp.length; index++) {
             document.querySelector(`.current${index}`).innerHTML = resp[index].timeframes.daily.current + 'Hrs';
