@@ -1,0 +1,183 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color: #0d1323;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+   width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user{
+    width: 26%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #1D204B;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.userinfo{
+    border-radius: 8px;
+    color: white;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: relative;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+    background-color: #5746EA;
+}
+
+.time{
+    color: white;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.time > button{
+color: #9799CA;
+background-color: #1d204b;
+    border: 0px;
+    margin-left: 10%;
+    
+}
+
+button:hover{
+    filter: opacity(30%);
+    color: white;
+}
+
+.picture{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: auto white;
+    align-self: flex-start;
+}
+
+.pic{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.report{
+color: #9799CA;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.UserName{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+.cards{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0d1323;
+}
+
+.cardinfo{
+    display: flex;
+    width: 30%;
+    height: 47%;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1D204B;
+    
+}
+
+.one{
+    background-color: #ff8b64;
+    background-image: url(./svg/work.svg);
+
+}
+.two{
+    background-color: #56c2e6;
+    background-image: url(./svg/game.svg);
+}
+.three{
+    background-color: #fe5d7f;
+    background-image: url(./svg/study.svg);
+}
+.four{
+    background-color: #4bcf83;
+    background-image: url(./svg/exercise.svg);
+}
+.five{
+    background-color: #7235d1;
+    background-image: url(./svg/social.svg);
+}
+.six{
+    background-color: #f1c75b;
+    background-image: url(./svg/selfcare.svg);
+}
+
+
+.card{
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    background-color: #1D204B;
+    width: 100%;
+    height: 80%;
+    align-self: flex-end;
+    border-radius: 8px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.upInf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.midInf{
+    display: flex;
+    flex-direction: column;
+}
+.midInf{
+    font-size: 32pt;
+    font-weight: lighter;
+}
+.midInf :last-child{
+    font-size: 12px;
+    font-weight: 500;
+    color: #9799CA;
+}
